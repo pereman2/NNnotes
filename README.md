@@ -1,1 +1,3 @@
 # NNnotes
+
+[index](nn.md)
