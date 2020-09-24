@@ -82,3 +82,8 @@ output2 (S, N, Hout)
 - Bayesian Optimization
 - Random search 
 - Grid search
+
+
+# RNN
+
+[rnn.md](rnn.md)
