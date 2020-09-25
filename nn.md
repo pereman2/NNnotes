@@ -84,6 +84,14 @@ output2 (S, N, Hout)
 - Grid search
 
 
+# Backpropagation
+
+> In fitting a neural network, backpropagation computes the gradient of the loss function with respect to the weights of the network
+
+[cross entropy loss function](https://en.wikipedia.org/wiki/Cross_entropy) (for classification)
+
+[squared error loss(SEL) loss function](https://en.wikipedia.org/wiki/Mean_squared_error) (for regression)
+
 # RNN
 
 [rnn.md](rnn.md)
