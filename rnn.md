@@ -56,6 +56,8 @@ def rnn_cell_backward(da_next, cache): # Look at rnn_backward_pass
 
 [rnn from scratch](https://medium.com/x8-the-ai-community/building-a-recurrent-neural-network-from-scratch-f7e94251cc80)
 
+[rnn sequencial models andrew ng](https://github.com/gyunggyung/Sequence-Models-coursera/blob/master/Week%201/Building%20a%20Recurrent%20Neural%20Network%20-%20Step%20by%20Step/Building%2Ba%2BRecurrent%2BNeural%2BNetwork%2B-%2BStep%2Bby%2BStep%2B-%2Bv3.ipynb)
+
 ## Architechture
 
 ![Basic RNN](assets/basic_rnn.png)
