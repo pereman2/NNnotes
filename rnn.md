@@ -47,6 +47,27 @@ def rnn_cell_backward(da_next, cache): # Look at rnn_backward_pass
 
 ```
 
+## Recursive vs recurrent
+
+**Recurrent Neural networks** are recurring over time. For example if you have a sequence
+
+x = ['h', 'e', 'l', 'l']
+
+This sequence is fed to a single neuron which has a single connection to itself.
+
+At time step 0, the letter 'h' is given as input at time step 1, 'e' is given as input. The network when unfolded over time will look like this.
+
+![](assets/recurrent.jpg)
+
+A **recursive network** is just a generalization of a recurrent network. In a recurrent network the weights are shared (and dimensionality remains constant) along the length of the sequence because how would you deal with position-dependent weights when you encounter a sequence at test-time of different length to any you saw at train-time. In a recursive network the weights are shared (and dimensionality remains constant) at every node for the same reason.
+
+This means that all the W\_xh weights will be equal(shared) and so will be the W\_hh weight. This is simply because it is a single neuron which has been unfolded in time.
+
+![](assets/recursive.png)
+
+It is quite simple to see why it is called a Recursive Neural Network. Each parent node's children are simply a node similar to that node.
+
+[source](https://stats.stackexchange.com/questions/153599/recurrent-vs-recursive-neural-networks-which-is-better-for-nlp)
 
 ## Links
 
