@@ -20,6 +20,8 @@ date: 2020-08-07
 
 [machine engineerin book(costs to much)](http://www.mlebook.com/wiki/doku.php)
 
+[exploding gradients and clipping](https://machinelearningmastery.com/how-to-avoid-exploding-gradients-in-neural-networks-with-gradient-clipping/)
+
 
 
 ## Activation functions 
