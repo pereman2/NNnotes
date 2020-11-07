@@ -22,6 +22,7 @@ date: 2020-08-07
 
 [exploding gradients and clipping](https://machinelearningmastery.com/how-to-avoid-exploding-gradients-in-neural-networks-with-gradient-clipping/)
 
+[backpropagation](https://machinelearningmastery.com/implement-backpropagation-algorithm-scratch-python/)
 
 
 ## Activation functions 
