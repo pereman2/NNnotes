@@ -24,6 +24,8 @@ date: 2020-08-07
 
 [backpropagation](https://machinelearningmastery.com/implement-backpropagation-algorithm-scratch-python/)
 
+[cool yt channel](https://www.youtube.com/c/3blue1brown)
+
 
 ## Activation functions 
 
